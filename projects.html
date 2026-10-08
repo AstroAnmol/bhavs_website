@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Bhavini Jeloka</title>
+  <meta name="description" content="Research projects by Bhavini Jeloka: multi-agent reinforcement learning, mean-field games, robust game theory, and control systems." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  NAVIGATION                             -->
+  <!-- ═══════════════════════════════════════ -->
+  <nav class="nav scrolled" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Bhavini <span>Jeloka</span></a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#news">News</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="assets/cv.pdf" class="nav__cta" target="_blank" rel="noopener">Download CV ↗</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  PAGE HERO                              -->
+  <!-- ═══════════════════════════════════════ -->
+  <header class="page-hero" aria-labelledby="projects-heading">
+    <div class="container">
+      <span class="page-hero__eyebrow">Work in Progress & Completed</span>
+      <h1 id="projects-heading">Research Projects</h1>
+      <p>A look at my ongoing research threads, past projects, and directions I'm exploring.</p>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  ONGOING PROJECTS                       -->
+  <!-- ═══════════════════════════════════════ -->
+  <main>
+    <section id="ongoing-projects" aria-labelledby="ongoing-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Active Research</span>
+          <h2 id="ongoing-heading">Ongoing Projects</h2>
+          <div class="divider"></div>
+          <p>Current research directions I'm actively pursuing.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal" id="project-mfg-robust">
+            <div class="project-card__visual theme-terracotta">
+              🎲
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag tag--conference">Game Theory</span>
+                <span class="tag tag--workshop">RL</span>
+              </div>
+              <h2 class="project-card__title">Robust Mean-Field Games Under Bounded Rationality</h2>
+              <p class="project-card__desc">
+                Developing equilibrium concepts for mean-field games where agents exhibit bounded rationality and risk-averse preferences. The goal is to find robust strategies that remain near-optimal under perturbations in opponent behavior distributions.
+              </p>
+              <div class="project-card__footer">
+                <span class="project-card__status ongoing">Ongoing</span>
+                <div class="project-card__links">
+                  <a href="#" class="btn btn--sm btn--ghost" id="proj1-paper">Paper →</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal" id="project-competitive-teams" style="transition-delay: 0.1s;">
+            <div class="project-card__visual theme-sage">
+              ⚔️
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag tag--conference">Multi-Agent</span>
+                <span class="tag tag--workshop">Mean Field</span>
+              </div>
+              <h2 class="project-card__title">Large-Scale Competitive Team Learning</h2>
+              <p class="project-card__desc">
+                Studying how teams of agents can learn coordinated competitive strategies against opponents using mean-field game approximations. Incorporates online opponent modeling to adapt in real time to changing adversary strategies.
+              </p>
+              <div class="project-card__footer">
+                <span class="project-card__status ongoing">Ongoing</span>
+                <div class="project-card__links">
+                  <a href="https://openreview.net" class="btn btn--sm btn--ghost" id="proj2-paper" target="_blank" rel="noopener">Paper →</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal" id="project-equilibrium-learning" style="transition-delay: 0.2s;">
+            <div class="project-card__visual theme-purple">
+              🔮
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag tag--journal">Theory</span>
+                <span class="tag tag--conference">Equilibrium</span>
+              </div>
+              <h2 class="project-card__title">Equilibrium Learning in Heterogeneous Populations</h2>
+              <p class="project-card__desc">
+                Exploring how equilibria emerge when a population of agents with heterogeneous objectives and capabilities interact. Focus on convergence guarantees and the structure of approximate Nash equilibria at scale.
+              </p>
+              <div class="project-card__footer">
+                <span class="project-card__status ongoing">Ongoing</span>
+                <div class="project-card__links">
+                  <a href="#" class="btn btn--sm btn--ghost" id="proj3-arxiv">Preprint Soon</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  PAST PROJECTS                          -->
+    <!-- ═══════════════════════════════════════ -->
+    <section id="past-projects" aria-labelledby="past-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Completed</span>
+          <h2 id="past-heading">Past Projects</h2>
+          <div class="divider"></div>
+          <p>Research from earlier in my career.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Past Project 1 -->
+          <article class="project-card reveal" id="project-acc">
+            <div class="project-card__visual theme-blue">
+              🚗
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag tag--conference">Control</span>
+                <span class="tag tag--preprint">Data-Driven</span>
+              </div>
+              <h2 class="project-card__title">Data-Driven Adaptive Cruise Control</h2>
+              <p class="project-card__desc">
+                Designed a data-driven controller for adaptive cruise control using differential flatness to convert the problem into a flat output tracking task, and Gaussian processes to model and account for uncertainty in vehicle dynamics.
+              </p>
+              <div class="project-card__footer">
+                <span class="project-card__status completed">Published · ACC 2024</span>
+                <div class="project-card__links">
+                  <a href="#" class="btn btn--sm btn--ghost" id="proj-acc-paper">Paper →</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Past Project 2 -->
+          <article class="project-card reveal" id="project-pendulum" style="transition-delay: 0.1s;">
+            <div class="project-card__visual theme-warm">
+              🔵
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag tag--conference">Control</span>
+                <span class="tag tag--preprint">Stability</span>
+              </div>
+              <h2 class="project-card__title">Switched PD Control for Spherical Pendulum</h2>
+              <p class="project-card__desc">
+                Designed a switched PD controller achieving almost global asymptotic stability for the spherical pendulum — an underactuated benchmark system. Established theoretical stability guarantees for the switching policy.
+              </p>
+              <div class="project-card__footer">
+                <span class="project-card__status completed">Published · MED 2021</span>
+                <div class="project-card__links">
+                  <a href="#" class="btn btn--sm btn--ghost" id="proj-pendulum-paper">Paper →</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  COLLABORATORS                          -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="collab-section" id="collaborators" aria-labelledby="collab-heading">
+      <div class="container">
+        <div class="section-header reveal" style="text-align:center; align-items:center; display:flex; flex-direction:column;">
+          <span class="section-label">Team</span>
+          <h2 id="collab-heading">Collaborators</h2>
+          <div class="divider" style="margin: 0.75rem auto 0;"></div>
+        </div>
+
+        <div class="collab-grid">
+          <div class="collab-card reveal">
+            <div class="collab-card__avatar">👨‍🏫</div>
+            <p class="collab-card__name">Panagiotis Tsiotras</p>
+            <p class="collab-card__role">Advisor · Georgia Tech</p>
+          </div>
+          <div class="collab-card reveal" style="transition-delay: 0.1s;">
+            <div class="collab-card__avatar">👨‍🔬</div>
+            <p class="collab-card__name">Yue Guan</p>
+            <p class="collab-card__role">Collaborator · Georgia Tech</p>
+          </div>
+          <div class="collab-card reveal" style="transition-delay: 0.15s;">
+            <div class="collab-card__avatar">👩‍🔬</div>
+            <p class="collab-card__name">Florentina Nicolau</p>
+            <p class="collab-card__role">Collaborator · ACC 2024</p>
+          </div>
+          <div class="collab-card reveal" style="transition-delay: 0.2s;">
+            <div class="collab-card__avatar">👨‍💻</div>
+            <p class="collab-card__name">Adnane Saoud</p>
+            <p class="collab-card__role">Collaborator · ACC 2024</p>
+          </div>
+          <div class="collab-card reveal" style="transition-delay: 0.25s;">
+            <div class="collab-card__avatar">👨‍🏫</div>
+            <p class="collab-card__name">Ravi N. Banavar</p>
+            <p class="collab-card__role">Collaborator · IIT Bombay</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  FOOTER                                 -->
+  <!-- ═══════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__name">Bhavini Jeloka</div>
+      <div class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <p class="footer__copy">© 2025 Bhavini Jeloka · Built with ♥ · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
