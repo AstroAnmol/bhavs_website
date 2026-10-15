@@ -29,7 +29,6 @@
         <li><a href="#about">About</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="publications.html">Publications</a></li>
-        <li><a href="projects.html">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="assets/cv.pdf" class="nav__cta" target="_blank" rel="noopener">Download CV ↗</a></li>
       </ul>
@@ -52,8 +51,8 @@
           </h1>
 
           <p class="hero__role animate-fade-up delay-2">
-            <strong>PhD in Machine Learning</strong> at the Georgia Institute of Technology<br>
-            Advised by <a href="https://dcsl.gatech.edu/tsiotras.html" target="_blank" rel="noopener">Prof. Panagiotis Tsiotras</a>
+            <strong>PhD in Machine Learning</strong> at the GeorgiaTech<br>
+            Advised by <a href="https://ae.gatech.edu/directory/person/panagiotis-tsiotras" target="_blank" rel="noopener">Prof. Panagiotis Tsiotras</a>
           </p>
 
           <p class="hero__bio animate-fade-up delay-2">
@@ -62,7 +61,6 @@
 
           <div class="hero__actions animate-fade-up delay-3">
             <a href="publications.html" class="btn btn--primary" id="hero-pubs-btn">View Publications →</a>
-            <a href="projects.html" class="btn btn--outline" id="hero-projects-btn">Research Projects</a>
             <a href="assets/cv.pdf" class="btn btn--ghost" id="hero-cv-btn" target="_blank">Download CV</a>
           </div>
 
@@ -200,6 +198,21 @@
 
       <div class="pubs-grid">
 
+
+        <div class="card reveal">
+          <div class="pub-card">
+            <div class="pub-card__meta">
+              <span class="tag tag--preprint">Preprint</span>
+              <span class="pub-card__year">2026</span>
+            </div>
+            <h3 class="pub-card__title">Beyond Nominal Equilibria: Risk-Averse Multi-Population Mean-Field Games</h3>
+            <p class="pub-card__authors"><em>Bhavini Jeloka</em>, Siddhartha Ganguly, Panagiotis Tsiotras</p>
+            <p class="pub-card__abstract">We introduce a new paradigm: risk-averse multi-population mean-field games, where each population optimizes a worst-case expected reward over dynamically feasible ambiguity sets of mean-field flows of a subset of the other populations...</p>
+              <a href="https://arxiv.org/pdf/2610.09244" class="pub-link" id="pub1-arxiv">arXiv</a>
+            </div>
+          </div>
+        </div>
+
         <div class="card reveal">
           <div class="pub-card">
             <div class="pub-card__meta">
@@ -208,10 +221,9 @@
             </div>
             <h3 class="pub-card__title">Robust Mean-Field Games with Risk Aversion and Bounded Rationality</h3>
             <p class="pub-card__authors"><em>Bhavini Jeloka</em>, Yue Guan, Panagiotis Tsiotras</p>
-            <p class="pub-card__abstract">We study mean-field games under bounded rationality and risk-averse objectives, developing robust equilibria that account for uncertainty in opponent behavior...</p>
+            <p class="pub-card__abstract">We study mean-field games under bounded rationality and risk-averse objectives, developing robust equilibria that account for uncertainty in initial distributions of the population...</p>
             <div class="pub-card__links">
-              <a href="#" class="pub-link" id="pub1-arxiv">arXiv</a>
-              <a href="#" class="pub-link" id="pub1-pdf">PDF</a>
+              <a href="https://arxiv.org/pdf/2602.13353" class="pub-link"  id="pub2-arxiv">arXiv</a>
             </div>
           </div>
         </div>
@@ -222,12 +234,11 @@
               <span class="tag tag--workshop">Workshop</span>
               <span class="pub-card__year">2025</span>
             </div>
-            <h3 class="pub-card__title">Learning Large-Scale Competitive Team Behaviors with Mean-Field Interactions and Online Opponent Modeling</h3>
+            <h3 class="pub-card__title">Learning Large-Scale Competitive Team Behaviors with Mean-Field Interactions</h3>
             <p class="pub-card__authors"><em>Bhavini Jeloka</em>, Yue Guan, Panagiotis Tsiotras</p>
-            <p class="pub-card__abstract">We propose a scalable approach for multi-team competitive games using mean-field approximations coupled with online opponent model estimation...</p>
+            <p class="pub-card__abstract">We propose a scalable reinforcement learningapproach for competitive team-games using mean-field approximations coupled with online opponent model estimation...</p>
             <div class="pub-card__links">
-              <a href="https://openreview.net" class="pub-link" id="pub2-openreview" target="_blank" rel="noopener">OpenReview</a>
-              <a href="#" class="pub-link" id="pub2-pdf">PDF</a>
+              <a href="https://arxiv.org/pdf/2504.21164" class="pub-link"  id="pub3-arxiv">arXiv</a>
             </div>
           </div>
         </div>
@@ -239,27 +250,10 @@
               <span class="pub-card__year">2024</span>
             </div>
             <h3 class="pub-card__title">Data-Driven Control of Adaptive Cruise Control Systems Using Differential Flatness and Gaussian Processes</h3>
-            <p class="pub-card__authors">Florentina Nicolau, Adnane Saoud, <em>Bhavini Jeloka</em>, Ravi N. Banavar</p>
+            <p class="pub-card__authors"> <em>Bhavini Jeloka</em>, Florentina Nicolau, Adnane Saoud, Ravi N. Banavar</p>
             <p class="pub-card__abstract">A data-driven control framework for ACC systems leveraging differential flatness to simplify trajectory planning and GPs for uncertainty quantification...</p>
             <div class="pub-card__links">
-              <a href="#" class="pub-link" id="pub3-doi">DOI</a>
-              <a href="#" class="pub-link" id="pub3-pdf">PDF</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card reveal" style="transition-delay: 0.2s;">
-          <div class="pub-card">
-            <div class="pub-card__meta">
-              <span class="tag tag--conference">Conference</span>
-              <span class="pub-card__year">2021</span>
-            </div>
-            <h3 class="pub-card__title">Almost Globally Asymptotically Stable Switched PD Control for a Spherical Pendulum</h3>
-            <p class="pub-card__authors"><em>Bhavini Jeloka</em> et al.</p>
-            <p class="pub-card__abstract">We design and analyze a switched PD controller achieving almost global asymptotic stability for the underactuated spherical pendulum system...</p>
-            <div class="pub-card__links">
-              <a href="#" class="pub-link" id="pub4-doi">DOI</a>
-              <a href="#" class="pub-link" id="pub4-pdf">PDF</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/10644717" class="pub-link" id="pub4-pdf">PDF</a>
             </div>
           </div>
         </div>
@@ -284,12 +278,9 @@
       </div>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;" class="about-grid">
         <div class="reveal">
-          <p>I am a <strong>Machine Learning</strong> PhD student at the <strong>Georgia Institute of Technology</strong>, Atlanta. I work in the <a href="https://dcsl.gatech.edu" target="_blank" rel="noopener">Dynamics and Control Systems Laboratory (DCSL)</a> under the guidance of <a href="https://dcsl.gatech.edu/tsiotras.html" target="_blank" rel="noopener">Prof. Panagiotis Tsiotras</a>.</p>
-          <p>My research sits at the intersection of <strong>game theory</strong>, <strong>reinforcement learning</strong>, and <strong>control theory</strong>. I am particularly interested in how large populations of strategic agents can learn to cooperate or compete — and how we can design systems that are robust to bounded rationality and risk.</p>
-          <p>Before Georgia Tech, I worked on control systems and had the opportunity to publish research on spherical pendulum stability control as an undergraduate.</p>
-        </div>
-        <div class="reveal" style="transition-delay: 0.15s;">
-          <div class="card" style="margin-bottom: 1rem;">
+          <p>I am a <strong>Machine Learning</strong> PhD student at the <strong>Georgia Institute of Technology</strong>, Atlanta. I work in the <a href="https://dcsl.gatech.edu" target="_blank" rel="noopener">Dynamics and Control Systems Laboratory (DCSL)</a> under the guidance of <a href="https://dcsl.gatech.edu/" target="_blank" rel="noopener">Prof. Panagiotis Tsiotras</a>. My research sits at the intersection of <strong>game theory</strong>, <strong>reinforcement learning</strong>, and <strong>decision making</strong>. I am particularly interested in how large populations of strategic agents can learn to cooperate or compete — and how we can design systems that are safe, risk-averse and robust to uncertainties.</p>
+          <p>Before Georgia Tech, I earned my undergraduate and master's degrees at IIT Bombay where I worked on control theory and analysis, particularly, learning-based control and geometric mechanics. </p>
+          <p> When I am not working on mathemtical proofs or training neural networks (hyperparameter tuning yay!), you can find me running around Atlanta, lifting weights, scouting for coffee shops or cooking. </p>
             <h4 style="margin-bottom: 1rem; color: var(--charcoal);">🏫 Education</h4>
             <div style="display: flex; flex-direction: column; gap: 0.75rem;">
               <div>
@@ -365,7 +356,7 @@
             <h3 class="contact__map-title">Georgia Institute of Technology</h3>
             <p class="contact__map-sub">DCSL — Dynamics and Control Systems Laboratory<br>Atlanta, Georgia, USA</p>
             <br>
-            <a href="https://dcsl.gatech.edu" class="btn btn--ghost btn--sm" target="_blank" rel="noopener" id="dcsl-link">Visit Lab Website ↗</a>
+            <a href="https://dcsl.gatech.edu/" class="btn btn--ghost btn--sm" target="_blank" rel="noopener" id="dcsl-link">Visit Lab Website ↗</a>
           </div>
         </div>
       </div>
@@ -381,7 +372,6 @@
       <div class="footer__links">
         <a href="#hero">Home</a>
         <a href="publications.html">Publications</a>
-        <a href="projects.html">Projects</a>
         <a href="#contact">Contact</a>
       </div>
       <p class="footer__copy">© 2025 Bhavini Jeloka · Built with ♥ · Hosted on GitHub Pages</p>
