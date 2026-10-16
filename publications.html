@@ -41,20 +41,16 @@
 
       <div class="page-hero__stats" role="list" aria-label="Publication statistics">
         <div class="stat" role="listitem">
-          <span class="stat__num" id="stat-total">4</span>
+          <span class="stat__num" id="stat-total">7</span>
           <span class="stat__label">Total Papers</span>
         </div>
         <div class="stat" role="listitem">
-          <span class="stat__num">1</span>
+          <span class="stat__num">6</span>
           <span class="stat__label">Conference Papers</span>
         </div>
         <div class="stat" role="listitem">
-          <span class="stat__num">1</span>
-          <span class="stat__label">Workshop Papers</span>
-        </div>
-        <div class="stat" role="listitem">
           <span class="stat__num">2</span>
-          <span class="stat__label">Preprints</span>
+          <span class="stat__label">Workshop Papers</span>
         </div>
       </div>
     </div>
@@ -83,61 +79,19 @@
             <div class="pub-year-label__line"></div>
           </div>
 
-          <article class="pub-entry" data-type="preprint" id="pub-2026-1">
-            <div class="pub-entry__header">
-              <div>
-                <h2 class="pub-entry__title">
-                  Robust Mean-Field Games with Risk Aversion and Bounded Rationality
-                </h2>
-                <p class="pub-entry__authors">
-                  <span class="author-me">Bhavini Jeloka</span>, Yue Guan, Panagiotis Tsiotras
-                </p>
-                <p class="pub-entry__venue">arXiv preprint: 2602.13353</p>
-              </div>
-              <div class="pub-entry__tags">
-                <span class="tag tag--preprint">Preprint</span>
-              </div>
-            </div>
-
-            <p class="pub-entry__abstract">
-              Mean-field games address scalability in large-population multi-agent systems by reducing inter-agent interactions to those between a representative agent and an aggregate population distribution. However, standard mean-field problem formulations assume either fully rational agents and/or a fixed and known initial agent distribution. To address these limitations, we introduce a unified framework that incorporates risk aversion to uncertainty in the initial population distribution together with an explicit quantal-response model of bounded rationality, leading to a generalized equilibrium concept, which we call the mean-field risk-averse quantal response equilibrium (MF-RQE). We prove the existence of MF-RQE, establish convergence guarantees for fixed-point iteration and fictitious play, and propose a scalable reinforcement learning algorithm for large state–action spaces. Numerical experiments show that MF-RQE yields superior robustness over classical MFG baselines under distributional shifts and agent suboptimali
-            </p>
-
-            <div class="pub-entry__footer">
-              <div class="pub-entry__links">
-                <a href="#" class="pub-link" id="pub2026-1-arxiv">arXiv</a>
-                <a href="#" class="pub-link" id="pub2026-1-pdf">PDF</a>
-                <a href="#" class="pub-link" id="pub2026-1-cite">Cite</a>
-              </div>
-              <button class="pub-abstract-toggle" id="toggle-2026-1" aria-expanded="false">
-                Show abstract
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
-              </button>
-            </div>
-          </article>
-        </div>
-
-        <!-- ── 2025 ── -->
-        <div class="pub-year-group reveal">
-          <div class="pub-year-label">
-            <span class="pub-year-label__num">2025</span>
-            <div class="pub-year-label__line"></div>
-          </div>
-
-          <article class="pub-entry" data-type="workshop" id="pub-2025-1">
+          <article class="pub-entry" data-type="workshop" id="pub-2026-3">
             <div class="pub-entry__header">
               <div>
                 <h2 class="pub-entry__title">
                   <a href="https://openreview.net" target="_blank" rel="noopener">
-                    Learning Large-Scale Competitive Team Behaviors with Mean-Field Interactions and Online Opponent Modeling
+                    Risk-Averse Multi-Population Mean-Field Games
                   </a>
                 </h2>
                 <p class="pub-entry__authors">
-                  <span class="author-me">Bhavini Jeloka</span>, Yue Guan, Panagiotis Tsiotras
+                  <span class="author-me">Bhavini Jeloka</span>, Siddhartha Ganguly, Panagiotis Tsiotras
                 </p>
                 <p class="pub-entry__venue">
-                  ALA (Adaptive and Learning Agents) Workshop, AAMAS · 2025
-                  <br><em style="font-style:normal; font-size:0.82rem; color: var(--charcoal-lt);">Also submitted to ICLR 2026</em>
+                  Dynamics at the Frontiers of Optimization, Sampling, and Games Workshop, NeurIPS · 2026
                 </p>
               </div>
               <div class="pub-entry__tags">
@@ -146,16 +100,82 @@
             </div>
 
             <p class="pub-entry__abstract">
-              We propose a scalable framework for large-scale multi-team competitive games using mean-field approximations coupled with online opponent model estimation. Our approach enables agents to efficiently learn competitive team strategies while adapting to evolving opponent behaviors in real time.
+              Recent advances in multi-population mean-field games (MP-MFGs) typically rely on expected-value objectives and do not account for uncertainty in the behavior of other populations. We introduce <em>risk-averse MP-MFGs</em>, a framework in which each population optimizes its worst-case expected reward over dynamically feasible ambiguity sets centered on the other team's nominal mean-field flows. We develop a risk-averse fictitious-play algorithm and show, under mild monotonicity and regularity conditions, that risk-averse exploitability serves as a <em>Lyapunov function</em> and decays at a rate <i>O</i>(1/s), despite the additional nonlinearity introduced by the worst-case objective. Numerical experiments demonstrate convergence and illustrate the resulting risk-averse behaviors in multi-population decision-making.
             </p>
 
             <div class="pub-entry__footer">
               <div class="pub-entry__links">
-                <a href="https://openreview.net" class="pub-link" id="pub2025-1-openreview" target="_blank" rel="noopener">OpenReview</a>
-                <a href="#" class="pub-link" id="pub2025-1-pdf">PDF</a>
-                <a href="#" class="pub-link" id="pub2025-1-cite">Cite</a>
+                  <a href="https://openreview.net/forum?id=4upkrYO7TZ&referrer=%5Bthe%20profile%20of%20Bhavini%20Jeloka%5D(%2Fprofile%3Fid%3D~Bhavini_Jeloka1)" class="pub-link" id="pub2026-3-pdf">PDF</a>
               </div>
-              <button class="pub-abstract-toggle" id="toggle-2025-1" aria-expanded="false">
+              <button class="pub-abstract-toggle" id="toggle-2026-3" aria-expanded="false">
+                Show abstract
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+              </button>
+            </div>
+          </article>
+
+          <article class="pub-entry" data-type="workshop" id="pub-2026-2">
+            <div class="pub-entry__header">
+              <div>
+                <h2 class="pub-entry__title">
+                  <a href="https://openreview.net" target="_blank" rel="noopener">
+                    Learning Large-Scale Competitive Team Behaviors with Mean-Field Interactions
+                  </a>
+                </h2>
+                <p class="pub-entry__authors">
+                  <span class="author-me">Bhavini Jeloka</span>, Yue Guan, Panagiotis Tsiotras
+                </p>
+                <p class="pub-entry__venue">
+                  Conference on Neural Information Processing Systems (NeurIPS) · 2026
+                  <br><em style="font-style:normal; font-size:0.82rem; color: var(--charcoal-lt);">Also presented at the Adaptive and Learning Agents Workshop, AAMAS · 2025</em>
+                </p>
+              </div>
+              <div class="pub-entry__tags">
+                <span class="tag tag--conference">Conference</span>
+                <span class="tag tag--workshop">Workshop</span>
+              </div>
+            </div>
+
+            <p class="pub-entry__abstract">
+              While MARL has shown strong empirical performance, existing methods struggle with a large number of agents due to the combinatorial growth of joint interactions. Mean-field (MF) approximations address this challenge by replacing pairwise interactions with surrogate interactions against population distributions, yielding tractable formulations for solving large-population policies. However, existing MF formulations focus on fully cooperative or purely competitive settings and fail to capture the mixed cooperative–competitive structure of team-based games. We extend mean-field learning to <em>zero-sum team games</em>, where agents cooperate within each team and compete at the team level. We show that such games admit &epsilon;-optimal decentralized policies that depend only on each agent's local state and population team distributions. Building on this structure, we propose MF-MAPPO, a scalable algorithm with a shared actor and a minimally informed critic per team. MF-MAPPO is trained directly in finite-population simulators rather than using mean-field oracles, enabling deployment to realistic scenarios with thousands of agents. We further extend MF-MAPPO to partially observable settings via a simple gradient-regularized training scheme. Experiments on large-scale benchmarks in our simulation platform (<code>MFEnv</code>), including population games with analytical solutions and high-dimensional battlefield scenarios, demonstrate that MF-MAPPO outperforms existing MARL baselines and yields rich, heterogeneous behaviors.
+            </p>
+
+            <div class="pub-entry__footer">
+              <div class="pub-entry__links">
+                <a href="https://openreview.net/forum?id=ZJXuGEf8Go&referrer=%5Bthe%20profile%20of%20Bhavini%20Jeloka%5D(%2Fprofile%3Fid%3D~Bhavini_Jeloka1)" class="pub-link"  id="pub2026-2-pdf">PDF</a>
+              </div>
+              <button class="pub-abstract-toggle" id="toggle-2026-2" aria-expanded="false">
+                Show abstract
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+              </button>
+            </div>
+          </article>
+
+          <article class="pub-entry" data-type="conference" id="pub-2026-1">
+            <div class="pub-entry__header">
+              <div>
+                <h2 class="pub-entry__title">
+                  Robust Mean-Field Games with Risk Aversion and Bounded Rationality
+                </h2>
+                <p class="pub-entry__authors">
+                  <span class="author-me">Bhavini Jeloka</span>, Yue Guan, Panagiotis Tsiotras
+                </p>
+                <p class="pub-entry__venue">Conference on Decision and Control (CDC) · 2026</p>
+              </div>
+              <div class="pub-entry__tags">
+                <span class="tag tag--conference">Conference</span>
+              </div>
+            </div>
+
+            <p class="pub-entry__abstract">
+              Mean-field games address scalability in large-population multi-agent systems by reducing inter-agent interactions to those between a representative agent and an aggregate population distribution. However, standard mean-field problem formulations assume either fully rational agents and/or a fixed and known initial agent distribution. To address these limitations, we introduce a unified framework that incorporates risk aversion to uncertainty in the initial population distribution together with an explicit quantal-response model of bounded rationality, leading to a generalized equilibrium concept, which we call the mean-field risk-averse quantal response equilibrium (MF-RQE). We prove the existence of MF-RQE, establish convergence guarantees for fixed-point iteration and fictitious play, and propose a scalable reinforcement learning algorithm for large state–action spaces. Numerical experiments show that MF-RQE yields superior robustness over classical MFG baselines under distributional shifts and agent suboptimality.
+            </p>
+
+            <div class="pub-entry__footer">
+              <div class="pub-entry__links">
+                <a href="https://arxiv.org/pdf/2602.13353" class="pub-link"  id="pub2026-1-arxiv">arXiv</a>
+              </div>
+              <button class="pub-abstract-toggle" id="toggle-2026-1" aria-expanded="false">
                 Show abstract
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
               </button>
@@ -170,16 +190,16 @@
             <div class="pub-year-label__line"></div>
           </div>
 
-          <article class="pub-entry" data-type="conference" id="pub-2024-1">
+          <article class="pub-entry" data-type="conference" id="pub-2024-2">
             <div class="pub-entry__header">
               <div>
                 <h2 class="pub-entry__title">
-                  Data-Driven Control of Adaptive Cruise Control Systems Using Differential Flatness and Gaussian Processes
+                  Trajectory Tracking for an Adaptive Cruise Control System Using Differential Flatness and Gaussian Processes
                 </h2>
                 <p class="pub-entry__authors">
-                  Florentina Nicolau, Adnane Saoud, <span class="author-me">Bhavini Jeloka</span>, Ravi N. Banavar
+                  <span class="author-me">Bhavini Jeloka</span>, Florentina Nicolau, Adnane Saoud,  Ravi N. Banavar
                 </p>
-                <p class="pub-entry__venue">2024 American Control Conference (ACC) · July 2024</p>
+                <p class="pub-entry__venue">International Conference on Methods and Models in Automation and Robotics (MMAR) · 2024</p>
               </div>
               <div class="pub-entry__tags">
                 <span class="tag tag--conference">Conference</span>
@@ -187,14 +207,43 @@
             </div>
 
             <p class="pub-entry__abstract">
-              We present a data-driven control framework for adaptive cruise control (ACC) systems that leverages differential flatness to simplify trajectory planning and Gaussian processes for uncertainty quantification. Our approach enables safe and efficient vehicle following under uncertain road conditions.
+              In this paper, we explain how differential flatness combined with Gaussian Processes can be applied for the adaptive cruise control system under external, unknown dynamics, to attain accurate trajectory tracking. The proposed approach employs differential flatness for controller design, along with Gaussian Processes to estimate the unknown components in the dynamics. In order to ensure robustness to this data-driven technique, a robust control law is also introduced, that further exploits the Gaussian Process framework. In the recent publication, we showed the effectiveness of the proposed control methodology for set-point regulation. In the current paper, we generalize it to trajectory tracking and show numerically that the error dynamics converge to zero.
             </p>
 
             <div class="pub-entry__footer">
               <div class="pub-entry__links">
-                <a href="#" class="pub-link" id="pub2024-1-doi">DOI</a>
-                <a href="#" class="pub-link" id="pub2024-1-pdf">PDF</a>
-                <a href="#" class="pub-link" id="pub2024-1-cite">Cite</a>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10680838" class="pub-link" id="pub2024-2-pdf">PDF</a>
+              </div>
+              <button class="pub-abstract-toggle" id="toggle-2024-2" aria-expanded="false">
+                Show abstract
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+              </button>
+            </div>
+          </article>
+
+          <article class="pub-entry" data-type="conference" id="pub-2024-1">
+            <div class="pub-entry__header">
+              <div>
+                <h2 class="pub-entry__title">
+                  Data-Driven Control of Adaptive Cruise Control Systems Using Differential Flatness and Gaussian Processes
+                </h2>
+                <p class="pub-entry__authors">
+                  <span class="author-me">Bhavini Jeloka</span>, Florentina Nicolau, Adnane Saoud, Ravi N. Banavar
+                </p>
+                <p class="pub-entry__venue">American Control Conference (ACC) · 2024</p>
+              </div>
+              <div class="pub-entry__tags">
+                <span class="tag tag--conference">Conference</span>
+              </div>
+            </div>
+
+            <p class="pub-entry__abstract">
+              This paper develops a novel control methodology for the adaptive cruise control system under external, unknown dynamics to attain set point regulation. The approach employs differential flatness for controller design, along with Gaussian Processes to estimate the unknown components in the dynamics. In order to ensure robustness to this data-driven technique, a robust control law is also introduced, that further exploits the Gaussian Process framework. The error dynamics is shown to converge to zero with high probability. Numerical experiments to support the results are presented.
+            </p>
+
+            <div class="pub-entry__footer">
+              <div class="pub-entry__links">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10644717" class="pub-link" id="pub2024-1-pdf">PDF</a>
               </div>
               <button class="pub-abstract-toggle" id="toggle-2024-1" aria-expanded="false">
                 Show abstract
@@ -211,16 +260,16 @@
             <div class="pub-year-label__line"></div>
           </div>
 
-          <article class="pub-entry" data-type="conference" id="pub-2021-1">
+          <article class="pub-entry" data-type="conference" id="pub-2021-2">
             <div class="pub-entry__header">
               <div>
                 <h2 class="pub-entry__title">
                   Almost Globally Asymptotically Stable Switched PD Control for a Spherical Pendulum
                 </h2>
                 <p class="pub-entry__authors">
-                  <span class="author-me">Bhavini Jeloka</span> et al.
+                  <span class="author-me">Bhavini Jeloka</span>, Ravi N. Banavar, DHS Maithripala
                 </p>
-                <p class="pub-entry__venue">2021 Mediterranean Conference on Control and Automation (MED) · June 2021</p>
+                <p class="pub-entry__venue">Mediterranean Conference on Control and Automation (MED) · 2021</p>
               </div>
               <div class="pub-entry__tags">
                 <span class="tag tag--conference">Conference</span>
@@ -228,28 +277,59 @@
             </div>
 
             <p class="pub-entry__abstract">
-              We design and analyze a switched proportional-derivative (PD) controller achieving almost global asymptotic stability for the underactuated spherical pendulum system. The switching logic ensures the system can be driven to the upright equilibrium from almost all initial conditions.
+              This paper presents a methodology to control a spherical pendulum on a stationary base in an upright position. This is based on the application of a nonlinear PD controller and a linear feedback controller in a small domain around the vertically upward equilibrium. The controller is designed to transition from the nonlinear to the linear region once it becomes sufficiently close to its equilibrium point. The region of asymptotic stability of the pendulum encompasses all initial conditions apart from the vertically downward position. Numerical experiments illustrating the performance of the controller are also provided.
             </p>
 
             <div class="pub-entry__footer">
               <div class="pub-entry__links">
-                <a href="#" class="pub-link" id="pub2021-1-doi">DOI</a>
-                <a href="#" class="pub-link" id="pub2021-1-pdf">PDF</a>
-                <a href="#" class="pub-link" id="pub2021-1-cite">Cite</a>
+                <a href="https://ieeexplore.ieee.org/abstract/document/9480292" class="pub-link" id="pub2021-2-pdf">PDF</a>
               </div>
-              <button class="pub-abstract-toggle" id="toggle-2021-1" aria-expanded="false">
+              <button class="pub-abstract-toggle" id="toggle-2021-2" aria-expanded="false">
                 Show abstract
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
               </button>
             </div>
           </article>
+
+
+          <article class="pub-entry" data-type="conference" id="pub-2024-1">
+            <div class="pub-entry__header">
+              <div>
+                <h2 class="pub-entry__title">
+                  Survey and Analysis of Payloads for Missions on PSLV's Orbital Platform
+                </h2>
+                <p class="pub-entry__authors">
+                  Aniruddha R Ranade, Anmol Sikka, (incl. <span class="author-me">Bhavini Jeloka</span>)
+                </p>
+                <p class="pub-entry__venue">AIAA Scitech Forum · 2021</p>
+              </div>
+              <div class="pub-entry__tags">
+                <span class="tag tag--conference">Conference</span>
+              </div>
+            </div>
+
+            <p class="pub-entry__abstract">
+              In this paper, prospects of the utilization of the 4th stage of ISRO’s PSLV, after the completion of the launch mission, as an orbital platform, to host scientific payloads have been discussed. Payloads from 4 domains - Technological Demonstration, Earth Observation, Microgravity, Biology Experiments and the associated mission concepts have been surveyed, and comments have been made on their suitability to be launched onboard the orbital platform. Technological challenges in achieving these have been highlighted. Based on this analysis, two technology demonstration missions have been proposed by the team.
+            </p>
+
+            <div class="pub-entry__footer">
+              <div class="pub-entry__links">
+                <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2021-0691" class="pub-link" id="pub2024-1-pdf">PDF</a>
+              </div>
+              <button class="pub-abstract-toggle" id="toggle-2024-1" aria-expanded="false">
+                Show abstract
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+              </button>
+            </div>
+          </article>
+
         </div>
 
         <!-- Scholar Banner -->
         <div class="scholar-banner reveal">
           <h3>Find me on Google Scholar</h3>
           <p>For the most up-to-date list of publications and citation metrics.</p>
-          <a href="https://scholar.google.com" class="btn btn--primary" id="scholar-btn" target="_blank" rel="noopener">
+          <a href="https://scholar.google.com/citations?user=VVIBs3QAAAAJ&hl=en" class="btn btn--primary" id="scholar-btn" target="_blank" rel="noopener">
             🎓 View Google Scholar Profile
           </a>
         </div>

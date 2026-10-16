@@ -294,6 +294,20 @@
   color: var(--charcoal);
 }
 
+/* ─── ABOUT ─── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about__sidebar,
+.about__education-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
 /* ─── FEATURED PUBLICATIONS ─── */
 .featured-pubs {
   background: var(--ivory-dark);
@@ -374,7 +388,8 @@
 
 .pubs-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
   gap: 1.5rem;
 }
 
@@ -482,7 +497,11 @@
   .hero__bio { margin: 0 auto 2rem; }
   .hero__affiliation { justify-content: center; }
   .interests__grid { grid-template-columns: 1fr; gap: 1rem; }
-  .pubs-grid { grid-template-columns: 1fr; }
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .pubs-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
   .contact__inner { grid-template-columns: 1fr; gap: 2rem; }
 }
 
